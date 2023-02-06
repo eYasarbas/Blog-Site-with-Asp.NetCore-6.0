@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using EntityLayer;
+using EntityLayer.Concrete;
 
 namespace DataAccessLayer.Concrete
 {
@@ -8,5 +10,7 @@ namespace DataAccessLayer.Concrete
         {
             _ = optionsBuilder.UseSqlServer("server=DESKTOP-CA5C4BN; database=BlogDb; integrated security=true;");
         }
+
+        public DbSet<About> Abouts { get; set; }
     }
 }
