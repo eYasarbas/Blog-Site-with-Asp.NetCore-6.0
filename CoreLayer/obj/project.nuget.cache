@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "evZHPSisDLQrfWZhGNskypOY2HVtxEho+FDN46GJ9imKTCbJ6PsRlx5mv/oIJeEH/AAo0zCfMnZ3ryxqcJXHBA==",
+  "dgSpecHash": "1g0zaDXPgAoIxVCMWuhWdYVShXX/wnZBcwtQy7k+gc1mtHYFRTUIYswqOCBWP0DJT7BGuMxMoQOGnniW9Unnhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\CoreLayer\\CoreLayer.csproj",
+  "projectFilePath": "c:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\CoreLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

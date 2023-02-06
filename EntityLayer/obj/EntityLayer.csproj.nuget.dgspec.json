@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj": {}
+    "c:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj": {
+    "c:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "c:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "c:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\E_Y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\obj\\",
+        "outputPath": "c:\\Users\\E_Y\\Documents\\Asp.NetCore\\BlogSite\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E_Y\\AppData\\Roaming\\NuGet\\NuGet.Config",
