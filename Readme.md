@@ -7,7 +7,6 @@ This is a sample project that demonstrates how to build a blog website using Asp
 The website includes all the essential features that a modern blog site should have.
 The website is built using the latest Asp.Net Core 6.0 framework and uses a clean and simple design.
 The site includes user authentication and authorization, so only registered users can create, edit, and delete blog posts.
-The site also includes a user-friendly WYSIWYG editor for creating and editing blog posts.
 The site uses a database to store the blog posts and user information, and uses Entity Framework Core for data access.
 
 ## Getting Started
