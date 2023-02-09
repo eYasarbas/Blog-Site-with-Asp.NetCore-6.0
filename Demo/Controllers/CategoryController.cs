@@ -1,5 +1,3 @@
-using BusinessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogSite.Controllers
@@ -7,12 +5,22 @@ namespace BlogSite.Controllers
     [Route("[controller]")]
     public class CategoryController : Controller
     {
-        private readonly CategoryManager cm = new(new EFCategoryRepo());
+        private readonly ILogger<CategoryController> _logger;
+
+        public CategoryController(ILogger<CategoryController> logger)
+        {
+            _logger = logger;
+        }
 
         public IActionResult Index()
         {
-            List<EntityLayer.Concrete.Category> values = cm.GetAll();
-            return View(values);
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View("Error!");
         }
     }
 }
