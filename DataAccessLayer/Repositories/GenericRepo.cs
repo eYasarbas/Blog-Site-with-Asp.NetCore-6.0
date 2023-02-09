@@ -1,6 +1,7 @@
+using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 
-namespace DataAccessLayer.Abstract
+namespace DataAccessLayer.Repositories
 {
     public class GenericRepo<T> : IGenericDal<T> where T : class
     {

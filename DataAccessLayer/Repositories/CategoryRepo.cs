@@ -1,38 +1,33 @@
 using DataAccessLayer.Abstract;
-using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 
 namespace DataAccessLayer.Repositories
 {
-    public class CategoryRepo : ICategoryDal
+    public class CategoryRepo : IGenericDal<Category>
     {
-        Context cont = new Context();
-        public void AddCategory(Category category)
+        public void Add(Category t)
         {
-            _ = cont.Add(category);
-            _ = cont.SaveChanges();
+            throw new NotImplementedException();
         }
 
-        public List<Category> AllCategory()
+        public void Delete(Category t)
         {
-            return cont.Categories.ToList();
+            throw new NotImplementedException();
         }
 
-        public void DeleteCategory(Category category)
+        public List<Category> GetAll()
         {
-            _ = cont.Remove(category);
-            _ = cont.SaveChanges();
+            throw new NotImplementedException();
         }
 
         public Category GetByID(int id)
         {
-            return cont.Categories.Find(id);
+            throw new NotImplementedException();
         }
 
-        public void UpdateCategory(Category category)
+        public void Update(Category t)
         {
-            _ = cont.Update(category);
-            _ = cont.SaveChanges();
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,40 +1,33 @@
 using DataAccessLayer.Abstract;
-using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 
 namespace DataAccessLayer.Repositories
 {
-    public class BlogRepo : IBlogDal
+    public class BlogRepo : IGenericDal<Blog>
     {
-        Context cont = new Context();
-
-        public void AddBlog(Blog blog)
+        public void Add(Blog t)
         {
-            _ = cont.Add(blog);
-            _ = cont.SaveChanges();
+            throw new NotImplementedException();
         }
 
-        public List<Blog> AllBlog()
+        public void Delete(Blog t)
         {
-            return cont.Blogs.ToList();
+            throw new NotImplementedException();
         }
 
-        public void DeleteBlog(Blog blog)
+        public List<Blog> GetAll()
         {
-            _ = cont.Remove(blog);
-            _ = cont.SaveChanges();
+            throw new NotImplementedException();
         }
 
         public Blog GetByID(int id)
         {
-            return cont.Blogs.Find(id);
+            throw new NotImplementedException();
         }
 
-        public void UpdateBlog(Blog blog)
+        public void Update(Blog t)
         {
-            _ = cont.Update(blog);
-            _ = cont.SaveChanges();
+            throw new NotImplementedException();
         }
-
     }
 }
