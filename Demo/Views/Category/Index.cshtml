@@ -1,0 +1,27 @@
+@using EntityLayer.Concrete
+@model List<Category>
+@{
+    ViewData["Title"] = "Index";
+}
+<link href="/Demo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" rel="stylesheet">
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Kategori Adı</th>
+        <th>Durumu</th>
+        <th>Detay</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryID</td>
+            <td>@item.CategoryName</td>
+            <td>@item.CategoryStatus</td>
+            <td><a href="#" class="btn btn-warning"></a>Detaylar</td>
+            <td><a href="#" class="btn btn-danger"></a>Sil</td>
+
+        </tr>
+
+    }
+</table>
