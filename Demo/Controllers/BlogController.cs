@@ -1,3 +1,5 @@
+using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogSite.Controllers
@@ -5,9 +7,11 @@ namespace BlogSite.Controllers
     [Route("[controller]")]
     public class BlogController : Controller
     {
+        private readonly BlogManager bm = new(new EFBlogRepo());
         public IActionResult Index()
         {
-            return View();
+            List<EntityLayer.Concrete.Blog> values = bm.GetAll();
+            return View(values);
         }
     }
 }
