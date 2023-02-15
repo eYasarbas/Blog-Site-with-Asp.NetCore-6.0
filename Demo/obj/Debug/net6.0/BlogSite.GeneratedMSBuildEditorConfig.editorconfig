@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlogSite
 build_property.RootNamespace = BlogSite
-build_property.ProjectDir = C:\Users\E_Y\Documents\Asp.NetCore\BlogSite\Demo\
+build_property.ProjectDir = c:\Users\E_Y\Documents\Asp.NetCore\BlogSite\Demo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\E_Y\Documents\Asp.NetCore\BlogSite\Demo
+build_property.MSBuildProjectDirectory = c:\Users\E_Y\Documents\Asp.NetCore\BlogSite\Demo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Blog/Index.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Category/Index.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Home/Index.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Home/Privacy.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Error.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Partial1.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Partial1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWwxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Partial2.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Partial2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWwyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Partial3.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/Partial3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWwzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/_UserLayout.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/_UserLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/_ViewImports.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/_ViewStart.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/_Layout.cshtml]
+[c:/Users/E_Y/Documents/Asp.NetCore/BlogSite/Demo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-11o8lrd2gp
