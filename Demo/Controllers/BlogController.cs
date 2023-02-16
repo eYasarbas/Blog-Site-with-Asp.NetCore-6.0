@@ -10,7 +10,7 @@ namespace BlogSite.Controllers
         private readonly BlogManager bm = new(new EFBlogRepo());
         public IActionResult Index()
         {
-            List<EntityLayer.Concrete.Blog> values = bm.GetAll();
+            List<EntityLayer.Concrete.Blog> values = bm.GetBlogListWithCategory();
             return View(values);
         }
     }

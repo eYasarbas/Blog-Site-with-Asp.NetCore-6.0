@@ -4,7 +4,7 @@ using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete
 {
-    public class BlogManager : IGenericService<Blog>
+    public class BlogManager : IBlogServices
     {
         private readonly IBlogDal _blogDal;
         public BlogManager(IBlogDal blogDal)
@@ -24,6 +24,11 @@ namespace BusinessLayer.Concrete
         public List<Blog> GetAll()
         {
             return _blogDal.GetAll();
+        }
+
+        public List<Blog> GetBlogListWithCategory()
+        {
+            return _blogDal.GetListWithCategory();
         }
 
         public Blog GetByID(int id)
