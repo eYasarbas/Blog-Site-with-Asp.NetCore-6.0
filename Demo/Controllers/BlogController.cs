@@ -13,5 +13,9 @@ namespace BlogSite.Controllers
             List<EntityLayer.Concrete.Blog> values = bm.GetBlogListWithCategory();
             return View(values);
         }
+        public IActionResult BlogDetails(int id)
+        {
+            return View();
+        }
     }
 }
