@@ -13,6 +13,7 @@ namespace BlogSite.Controllers
             List<EntityLayer.Concrete.Blog> values = bm.GetBlogListWithCategory();
             return View(values);
         }
+        [Route("blog/BlogDetails/{id}")]
         public IActionResult BlogDetails(int id)
         {
             return View();
