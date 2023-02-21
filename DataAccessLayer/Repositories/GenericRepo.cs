@@ -1,3 +1,5 @@
+using System.Linq;
+using System.Linq.Expressions;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 
@@ -33,6 +35,11 @@ namespace DataAccessLayer.Repositories
         {
             cont.Update(t);
             cont.SaveChanges();
+        }
+
+        public List<T> List(Expression<Func<T, bool>> filter)
+        {
+            return cont.Set<T>().Where(filter).ToList();
         }
     }
 }
