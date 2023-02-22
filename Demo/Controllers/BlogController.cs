@@ -1,7 +1,6 @@
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace BlogSite.Controllers
 {
@@ -15,10 +14,10 @@ namespace BlogSite.Controllers
             return View(values);
         }
         [Route("blog/BlogDetails/{id}")]
-        public IActionResult BlogReadAll(int id, EFBlogRepo _model)
+        public IActionResult BlogReadAll(int id)
         {
-            var model = _model.GetByID(id);
-            return View(model);
+            EntityLayer.Concrete.Blog values = bm.GetByID(id);
+            return View(values);
         }
     }
 }
