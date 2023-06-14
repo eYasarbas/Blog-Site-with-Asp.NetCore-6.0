@@ -26,21 +26,18 @@ This project is a great starting point for developers who want to learn how to d
 
 # Architecture of the Project
 
-The project uses a 5-layer architecture:
+The project uses a 5-tier architecture:
 
-1. Presentation Layer
-Responsible for handling user interactions and displaying data to the user. In this project, the presentation layer is built using ASP.NET Core MVC.
+1. Presentation Layer 
+The backend codes on the controller side are located in this section. In this project, the presentation layer was created using ASP.NET Core MVC.
 
-2. Core Layer
-Contains the core logic and functionality of the application, such as shared data structures and algorithms.
+2. Core Layer Contains the basic logic and functionality of the application, such as shared data structures and algorithms.
 
-3. Business Logic Layer
-Implements the business rules and logic of the application. In this project, the business logic is implemented using C# classes.
+3. Business Logic Layer Validations are controlled in this layer. For example, it must be max 50 characters. 
 
-4. Data Access Layer
-Responsible for interacting with the database to retrieve and store data. In this project, the data access layer uses Entity Framework Core to interact with the SQL Server database.
+4. Data Access Layer 
+In this layer, infrastructure is prepared for database crud operations. For example, Creat-Read-Update-Delete operations are prepared.
 
-5. Demo Layer
-Contains code and data used for demonstration purposes, such as sample data and example code.
+5. Demo Layer Contains code and data used for demonstration purposes such as sample data and sample code.
 
 Each layer is separated into its own directory, making it easier to maintain and update individual components without affecting the rest of the application. This modular structure also promotes maintainability and scalability, as the code can be easily separated into smaller, more manageable components.
